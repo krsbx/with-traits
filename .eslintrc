@@ -20,7 +20,8 @@
   "plugins": ["prettier", "@typescript-eslint", "import"],
   "rules": {
     "import/extensions": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off"
   },
   "settings": {
     "import/parsers": {
